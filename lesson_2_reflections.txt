@@ -1,7 +1,11 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-a hidden .git folder is created, which contains configuration and other info
+   A hidden .git folder is created, which contains configuration and other info
 
 How is the staging area different from the working directory and the repository? what value do you think it offers?
 
-the staging are only contains the files that will commit, not the whole working directory and the repository, it is a kind of check before creating a checkout
+   The staging are only contains the files that will commit, not the whole working directory and the repository, it is a kind of check before creating a checkout
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+   I am not sure, I think I can stage files and check if the differences between them are well defined as logical changes
