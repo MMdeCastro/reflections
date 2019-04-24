@@ -14,4 +14,11 @@ What are some situations when branches would be helpful in keeping your history 
 
    If I need a private developing branch, an experimental one, a featured one,... Branches help to organize versions
 
+How do the diagrams help you visualize the branch structure?
+
+   A diagram shows the complete picture simultaneously, including potential orphan commits
+
+What is the result of merging two branches together? Why do we represent it in the deiagram thwe way we do?
+
+   If I am in branch1 and I do git merge branch2, branch1 will change due to the inclusion of the lines that were in branch2 but not in branch1 or in the original or the removal of the ones that were not in branch2 and in the original (other changes will fail the automatical merge and we will need to solve the conflicts manually). After the merge, branch2 remains the same, we can also delete it since its commits will be included in the branch1 log. The log --graph shows a physical representation that helps to visualize the paths.
 
