@@ -22,3 +22,8 @@ What is the result of merging two branches together? Why do we represent it in t
 
    If I am in branch1 and I do git merge branch2, branch1 will change due to the inclusion of the lines that were in branch2 but not in branch1 or in the original or the removal of the ones that were not in branch2 and in the original (other changes will fail the automatical merge and we will need to solve the conflicts manually). After the merge, branch2 remains the same, we can also delete it since its commits will be included in the branch1 log. The log --graph shows a physical representation that helps to visualize the paths.
 
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+   Pro: get rid of the obvious merges, cons: the automatic merging might not decide properly on what obvious means.
+
+
